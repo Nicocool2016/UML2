@@ -1,5 +1,5 @@
 using System.Dynamic;
-using System.Collections.Generic;
+
 
 namespace UML2
 {
@@ -7,7 +7,6 @@ namespace UML2
     {
         public int Number { get; set; } 
         public string Name { get; set; }
-        public double Price { get; set; }
-        public List<string> Toppings { get; set; }
+        public double Price { get; set; }        
     }
 }
